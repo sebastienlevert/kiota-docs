@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "DmYXN5BT3UW80EGntNx5Swc6LnyoEhhrBhfivH+/hiWUHNaUUFZjrrhQToJ7XUlQ+sr3E5mNpZdxYJnyhYUL/Q==",
+  "success": true,
+  "projectFilePath": "/home/slevert/src/temp/kiota-docs/kiota-docs.csproj",
+  "expectedPackageFiles": [
+    "/home/slevert/.nuget/packages/microsoft.kiota.abstractions/1.2.1/microsoft.kiota.abstractions.1.2.1.nupkg.sha512",
+    "/home/slevert/.nuget/packages/microsoft.kiota.http.httpclientlibrary/1.0.6/microsoft.kiota.http.httpclientlibrary.1.0.6.nupkg.sha512",
+    "/home/slevert/.nuget/packages/microsoft.kiota.serialization.form/1.0.1/microsoft.kiota.serialization.form.1.0.1.nupkg.sha512",
+    "/home/slevert/.nuget/packages/microsoft.kiota.serialization.json/1.0.7/microsoft.kiota.serialization.json.1.0.7.nupkg.sha512",
+    "/home/slevert/.nuget/packages/microsoft.kiota.serialization.text/1.0.1/microsoft.kiota.serialization.text.1.0.1.nupkg.sha512",
+    "/home/slevert/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "/home/slevert/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/home/slevert/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
+    "/home/slevert/.nuget/packages/system.text.json/6.0.0/system.text.json.6.0.0.nupkg.sha512",
+    "/home/slevert/.nuget/packages/tavis.uritemplates/2.0.0/tavis.uritemplates.2.0.0.nupkg.sha512",
+    "/home/slevert/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "/home/slevert/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "/home/slevert/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.14/microsoft.netcore.app.host.linux-x64.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

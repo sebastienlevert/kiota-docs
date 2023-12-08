@@ -1,0 +1,25 @@
+{
+  "name": "kiota-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npm-watch build",
+    "build": "docfx build --serve"
+  },
+  "watch": {
+    "build": {
+      "patterns": [ "./*" ],
+      "extensions": "md,yml",
+      "quiet": false,
+      "ignore": "_site/*",
+      "delay": 500
+    }
+  },
+  "devDependencies": {
+    "npm-watch": "^0.11.0",
+    "browser-sync": "^2.27.11"
+  },
+  "author": "",
+  "license": "ISC"
+}

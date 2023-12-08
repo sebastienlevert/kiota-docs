@@ -1,0 +1,8 @@
+Warning: KiotaBuilder OpenAPI warning: #/ - Multiple servers entries were found in the OpenAPI description. Only the first one will be used. The root URL can be set manually with the request adapter.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1store~1subscribe/post/requestBody/content/application~1json/schema/properties/callbackUrl - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Pet/properties/photoUrls/items - The format url is not supported by Kiota for the type string and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/User/properties/email - The format email is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/User/properties/password - The format password is not supported by Kiota for the type string and the string type will be used.
+Error: KiotaBuilder OpenAPI error: #/components/schemas/Pet/discriminator - Schema Pet must contain property specified in the discriminator petType in the required field list.
+Warning: KiotaBuilder Could not create method for addPet in \pet because the schema was invalid
+Warning: KiotaBuilder Could not create method for updatePet in \pet because the schema was invalid

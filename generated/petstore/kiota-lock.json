@@ -1,0 +1,47 @@
+{
+  "descriptionHash": "F0D991C4D73C75548D82416ADEFDF6A25949203480C0DB1C6F7A465F23F31C82F4D6863CDDA799760621745DA8BDF4173A954AF83177631F2CED7286F9C6CD1F",
+  "descriptionLocation": "/home/slevert/src/temp/kiota-docs/specs/petstore.yaml",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "1.4.0",
+  "clientClassName": "PetStoreClient",
+  "clientNamespaceName": "PetStore",
+  "language": "CSharp",
+  "usesBackingStore": false,
+  "includeAdditionalData": false,
+  "serializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Text.TextSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Form.FormSerializationWriterFactory"
+  ],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Text.TextParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Form.FormParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json",
+    "text/plain",
+    "application/x-www-form-urlencoded"
+  ],
+  "includePatterns": [
+    "/",
+    "/pet",
+    "/pet/findByStatus",
+    "/pet/findByTags",
+    "/pet/{petId}",
+    "/pet/{petId}/uploadImage",
+    "/store",
+    "/store/inventory",
+    "/store/order",
+    "/store/order/{orderId}",
+    "/store/subscribe",
+    "/user",
+    "/user/createWithArray",
+    "/user/createWithList",
+    "/user/login",
+    "/user/logout",
+    "/user/{username}"
+  ],
+  "excludePatterns": [],
+  "disabledValidationRules": []
+}

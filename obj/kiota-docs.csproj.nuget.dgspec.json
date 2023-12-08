@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/slevert/src/temp/kiota-docs/kiota-docs.csproj": {}
+  },
+  "projects": {
+    "/home/slevert/src/temp/kiota-docs/kiota-docs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/slevert/src/temp/kiota-docs/kiota-docs.csproj",
+        "projectName": "kiota-docs",
+        "projectPath": "/home/slevert/src/temp/kiota-docs/kiota-docs.csproj",
+        "packagesPath": "/home/slevert/.nuget/packages/",
+        "outputPath": "/home/slevert/src/temp/kiota-docs/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/slevert/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Kiota.Abstractions": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "Microsoft.Kiota.Http.HttpClientLibrary": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
+            "Microsoft.Kiota.Serialization.Form": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Microsoft.Kiota.Serialization.Json": {
+              "target": "Package",
+              "version": "[1.0.7, )"
+            },
+            "Microsoft.Kiota.Serialization.Text": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+- name: Swagger Petstore YAML
+  href: api/petstore/
+  homepage: api/petstore/index.md
